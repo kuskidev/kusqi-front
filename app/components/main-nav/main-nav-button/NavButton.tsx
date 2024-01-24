@@ -15,7 +15,7 @@ const NavButton = ({ action, Icon, className, tooltip }: Props) => {
             onClick={action}
             data-tip={tooltip ?? ''}
         >
-            <Icon size={32} />
+            <Icon size={30} />
         </button>
     )
 }
