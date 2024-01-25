@@ -27,12 +27,12 @@ const SearchSection = () => {
                         <div className="join">
                             <div>
                                 <div>
-                                    <input className="input input-bordered join-item" placeholder="Buscar" />
+                                    <input className="input input-bordered join-item w-56 max-sm:w-36" placeholder="Buscar" />
                                 </div>
                             </div>
-                            <select defaultValue={'Ciudad'} className="select select-bordered join-item">
+                            <select defaultValue={'Ciudad'} className="select select-bordered join-item max-sm:w-28 ">
                                 <option value="Ciudad" disabled defaultChecked>
-                                    Ciudad
+                                    Ciudades
                                 </option>
                                 <option value="Oxapampa">Oxapampa</option>
                             </select>
