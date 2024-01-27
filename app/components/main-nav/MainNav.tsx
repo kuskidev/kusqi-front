@@ -10,7 +10,7 @@ import SearchSection from './search-section/SearchSection'
 const MainNav = () => {
     const route = useRouter()
     return (
-        <nav className="flex flex-row justify-start w-full h-28 items-center">
+        <nav className="bg-neutral-content flex flex-row justify-start w-full h-28 items-center fixed top-0">
             <div className="w-1/4 h-full ">
                 <SearchSection />
             </div>

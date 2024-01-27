@@ -13,3 +13,12 @@ export type AuthButtonsType = {
     tooltip: string
     icon: IconType
 }
+
+export type PostType = {
+    id: number
+    title: string
+    body: string
+    media: string[]
+    shop: string
+    publishedAt: string
+}
